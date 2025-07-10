@@ -1,0 +1,72 @@
+/* ---------- Estilos generales ---------- */
+
+body {
+    font-family: Arial, sans-serif; /* Fuente de texto predeterminada */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina relleno por defecto */
+    background-color: #02082b; /* Color de fondo gris claro */
+    color: #ff0202; /* Color de texto gris oscuro */
+}
+
+
+nav {
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        background-color: rgb(24, 211, 33);
+        text-decoration: none;
+        padding: 12px  32px;
+        border-radius: 6px;
+
+
+
+}
+
+
+/* ---------- Encabezado ---------- */
+
+header {
+    background-image: url(img/horarios\.png); /* Fondo oscuro para el encabezado */
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+
+    
+
+    height: 90vh; 
+    background-size: cover;
+    font-size: 30px; 
+    color: rgb(219, 9, 9); /* Texto blanco */
+    padding: 20px;
+    text-align: center; /* Centra el texto */
+}
+
+
+
+
+
+
+
+/* ---------- Contenido principal ---------- */
+
+main {
+    padding: 20px;
+    background-color: rgb(8, 10, 19); /* Fondo blanco para resaltar contenido */
+    max-width: 900px; /* Ancho máximo */
+    color: rgb(24, 211, 33);
+    margin: 20px auto; /* Centra el contenido */
+    box-shadow: 0 0 10px rgba(24, 211, 33); /* Sombra suave */
+    border-radius: 10px; /* Bordes redondeados */
+   
+
+}
+
+/* ---------- Pie de página ---------- */
+
+footer {
+    background-color: #02082b;
+    color: rgb(24, 211, 33);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
